@@ -1,0 +1,251 @@
+{
+    "max": {
+        "nautilus": 12, 
+        "firefox": 50, 
+        "nm-dhcp-helper": 6, 
+        "gvfsd-network": 37, 
+        "sudo": 66, 
+        "Socket Thread": 1727, 
+        "cron": 10, 
+        "Web Content": 2, 
+        "thermald": 62, 
+        "compiz": 323, 
+        "CUPSManager cup": 224, 
+        "http": 5, 
+        "dconf worker": 14, 
+        "gvfsd-http": 50, 
+        "Link Monitor": 70, 
+        "unity-webapps-r": 6, 
+        "systemd": 6, 
+        "soffice.bin": 261, 
+        "start_servers.py": 3, 
+        "unity-control-c": 16, 
+        "lpstat": 548, 
+        "pkexec": 8, 
+        "gvfsd-smb-brows": 9, 
+        "unix_chkpwd": 2, 
+        "gnome-terminal-": 8, 
+        "gnome-terminal.": 274, 
+        "bamfdaemon": 76, 
+        "prlcp": 9, 
+        "NetworkChangeNo": 45, 
+        "https": 24, 
+        "prlsga": 28, 
+        "webapp-containe": 27, 
+        "nm-dispatcher": 6, 
+        "prlcc": 198, 
+        "gnome-software": 50, 
+        "CUPSManager get": 44, 
+        "DNS Resolver #": 537, 
+        "QXcbEventReader": 40, 
+        "pool": 139, 
+        "oosplash": 3, 
+        "WorkerPool/": 79, 
+        "dhclient": 6, 
+        "gvfsd-dnssd": 37, 
+        "gnome-system-mo": 29, 
+        "WebExtensions": 80, 
+        "prltoolsd": 6, 
+        "Chrome_IOThread": 313, 
+        "dnsmasq": 49, 
+        "cupsd": 596
+    }, 
+    "average": {
+        "nautilus": {
+            "count": 1, 
+            "avg": 12
+        }, 
+        "firefox": {
+            "count": 11, 
+            "avg": 20
+        }, 
+        "nm-dhcp-helper": {
+            "count": 3, 
+            "avg": 6
+        }, 
+        "gvfsd-network": {
+            "count": 2, 
+            "avg": 53
+        }, 
+        "sudo": {
+            "count": 15, 
+            "avg": 22
+        }, 
+        "Socket Thread": {
+            "count": 413, 
+            "avg": 21
+        }, 
+        "cron": {
+            "count": 2, 
+            "avg": 10
+        }, 
+        "Web Content": {
+            "count": 4, 
+            "avg": 8
+        }, 
+        "thermald": {
+            "count": 21, 
+            "avg": 2
+        }, 
+        "compiz": {
+            "count": 36, 
+            "avg": 23
+        }, 
+        "CUPSManager cup": {
+            "count": 1, 
+            "avg": 224
+        }, 
+        "http": {
+            "count": 3, 
+            "avg": 3
+        }, 
+        "dconf worker": {
+            "count": 8, 
+            "avg": 12
+        }, 
+        "gvfsd-http": {
+            "count": 5, 
+            "avg": 24
+        }, 
+        "Link Monitor": {
+            "count": 17, 
+            "avg": 6
+        }, 
+        "unity-webapps-r": {
+            "count": 4, 
+            "avg": 8
+        }, 
+        "systemd": {
+            "count": 15, 
+            "avg": 3
+        }, 
+        "soffice.bin": {
+            "count": 6, 
+            "avg": 48
+        }, 
+        "start_servers.py": {
+            "count": 1266, 
+            "avg": 1
+        }, 
+        "unity-control-c": {
+            "count": 2, 
+            "avg": 19
+        }, 
+        "lpstat": {
+            "count": 2663, 
+            "avg": 1
+        }, 
+        "pkexec": {
+            "count": 2, 
+            "avg": 8
+        }, 
+        "gvfsd-smb-brows": {
+            "count": 1, 
+            "avg": 9
+        }, 
+        "unix_chkpwd": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "gnome-terminal-": {
+            "count": 16, 
+            "avg": 2
+        }, 
+        "gnome-terminal.": {
+            "count": 3, 
+            "avg": 12
+        }, 
+        "bamfdaemon": {
+            "count": 45, 
+            "avg": 7
+        }, 
+        "prlcp": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "NetworkChangeNo": {
+            "count": 7, 
+            "avg": 20
+        }, 
+        "https": {
+            "count": 1, 
+            "avg": 24
+        }, 
+        "prlsga": {
+            "count": 15, 
+            "avg": 9
+        }, 
+        "webapp-containe": {
+            "count": 6, 
+            "avg": 24
+        }, 
+        "nm-dispatcher": {
+            "count": 3, 
+            "avg": 6
+        }, 
+        "prlcc": {
+            "count": 1102, 
+            "avg": 1
+        }, 
+        "gnome-software": {
+            "count": 1, 
+            "avg": 50
+        }, 
+        "CUPSManager get": {
+            "count": 1, 
+            "avg": 44
+        }, 
+        "DNS Resolver #": {
+            "count": 28, 
+            "avg": 166
+        }, 
+        "QXcbEventReader": {
+            "count": 1, 
+            "avg": 40
+        }, 
+        "pool": {
+            "count": 33, 
+            "avg": 35
+        }, 
+        "oosplash": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "WorkerPool/": {
+            "count": 5, 
+            "avg": 63
+        }, 
+        "dhclient": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "gvfsd-dnssd": {
+            "count": 1, 
+            "avg": 37
+        }, 
+        "gnome-system-mo": {
+            "count": 10, 
+            "avg": 4
+        }, 
+        "WebExtensions": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "prltoolsd": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "Chrome_IOThread": {
+            "count": 104, 
+            "avg": 33
+        }, 
+        "dnsmasq": {
+            "count": 199, 
+            "avg": 4
+        }, 
+        "cupsd": {
+            "count": 2685, 
+            "avg": 2
+        }
+    }
+}

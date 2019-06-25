@@ -1,0 +1,36 @@
+{
+    "max": {
+        "http": 2, 
+        "Socket Thread": 14, 
+        "Chrome_IOThread": 11, 
+        "snapd": 2, 
+        "https": 2, 
+        "gvfsd-http": 1
+    }, 
+    "average": {
+        "http": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "Socket Thread": {
+            "count": 82, 
+            "avg": 4
+        }, 
+        "Chrome_IOThread": {
+            "count": 34, 
+            "avg": 2
+        }, 
+        "snapd": {
+            "count": 7, 
+            "avg": 1
+        }, 
+        "https": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "gvfsd-http": {
+            "count": 3, 
+            "avg": 1
+        }
+    }
+}

@@ -1,0 +1,676 @@
+{
+    "max": {
+        "busybox": 11, 
+        "frontend": 8, 
+        "ldd": 68, 
+        "dpkg-deb": 42, 
+        "kbd": 24, 
+        "lesspipe": 2, 
+        "thermal": 4, 
+        "30_os-prober": 8, 
+        "apt.postinst": 28, 
+        "dbus-daemon": 2, 
+        "find": 3, 
+        "intel_microcode": 8, 
+        "systemd": 13, 
+        "package-system-": 3, 
+        "py3compile": 4, 
+        "-w": 2, 
+        "dpkg-preconfigu": 14, 
+        "libc-bin.postin": 6, 
+        "libreoffice": 7, 
+        "os-prober": 33, 
+        "python3-jinja2.": 4, 
+        "apt-auto-remova": 33, 
+        "python": 6, 
+        "webapp-containe": 1, 
+        "apt-cache": 2, 
+        "systemctl": 2, 
+        "gnome-menus.pos": 2, 
+        "hicolor-icon-th": 1, 
+        "brltty": 10, 
+        "dhclient": 1, 
+        "zz-busybox-init": 140, 
+        "apt.postrm": 3, 
+        "Chrome_ProcessL": 1, 
+        "collect": 2, 
+        "gnome-terminal": 1, 
+        "mkinitramfs": 1124, 
+        "friendly-recove": 1, 
+        "osl_executeProc": 2, 
+        "udev": 125, 
+        "cron": 1, 
+        "compiz": 7, 
+        "dkms": 48, 
+        "unity-webapps-r": 6, 
+        "unity-webapps-s": 6, 
+        "start_servers.py": 1, 
+        "/usr/bin/deb-systemd-invoke": 5, 
+        "firefox.postins": 8, 
+        "apt-extracttemp": 5, 
+        "run-parts": 10, 
+        "preinst": 6, 
+        "gnome-terminal-": 1, 
+        "ureadahead.post": 15, 
+        "pm-utils": 5, 
+        "py3clean": 4, 
+        "(ostnamed)": 1, 
+        "(spatcher)": 1, 
+        "ntfs_3g": 19, 
+        "update-rc.d": 7, 
+        "apt-key": 115, 
+        "upstart-prestar": 2, 
+        "desktop-file-ut": 1, 
+        "gvfsd": 4, 
+        "bash": 45, 
+        "xargs": 14, 
+        "(snapd)": 1, 
+        "fixrtc": 41, 
+        "prlshprint": 5, 
+        "intel-microcode": 6, 
+        "apt.prerm": 8, 
+        "update-motd-upd": 9, 
+        "apt-check": 11, 
+        "firefox": 2, 
+        "cc": 326, 
+        "gpgv": 5, 
+        "/usr/bin/deb-systemd-helper": 5, 
+        "apt": 6, 
+        "chrome-sandbox": 1, 
+        "linux-image-4.": 6, 
+        "nm-dispatcher": 1, 
+        "soffice.bin": 1, 
+        "/usr/sbin/update-rc.d": 1, 
+        "perl": 6, 
+        "update-notifier": 7, 
+        "klibc-utils": 4, 
+        "ubuntu-webapps-": 6, 
+        "update-initramf": 3, 
+        "upstart": 2, 
+        "zz-update-grub": 5, 
+        "unattended-upgr": 5, 
+        "apt-config": 40, 
+        "framebuffer": 834, 
+        "10_linux": 279, 
+        "dpkg": 126, 
+        "dpkg-maintscrip": 9, 
+        "05_debian_theme": 2, 
+        "resume": 8, 
+        "plymouth": 297, 
+        "grub-mkconfig": 20, 
+        "grub-probe": 660, 
+        "apparmor.postrm": 4, 
+        "sudo": 7, 
+        "20_memtest86+": 16, 
+        "/usr/lib/update-notifier/apt-check": 3, 
+        "initramfs-tools": 2, 
+        "gcc": 5, 
+        "zz-dhclient": 38, 
+        "make": 331, 
+        "apparmor.postin": 29, 
+        "20_linux_xen": 18, 
+        "systemd.postins": 4, 
+        "linux-modules-e": 2, 
+        "bamfdaemon.post": 3, 
+        "console_setup": 7, 
+        "linux-modules-": 2, 
+        "/usr/bin/gnome-terminal": 6, 
+        "parallels_tools": 5, 
+        "-Es": 1, 
+        "kmod": 3, 
+        "dkms_autoinstal": 5, 
+        "fsck": 101, 
+        "IPC Launch #": 1, 
+        "fuse": 10, 
+        "snapd": 4, 
+        "30_uefi-firmwar": 1, 
+        "/usr/sbin/update-mime": 1, 
+        "compcache": 1, 
+        "amd64_microcode": 16, 
+        "linux-headers-": 1, 
+        "10filesystems": 28, 
+        "man-db.postinst": 2, 
+        "41_custom": 1, 
+        "sh": 269, 
+        "apparmor.prerm": 3, 
+        "00_header": 22
+    }, 
+    "average": {
+        "busybox": {
+            "count": 1, 
+            "avg": 11
+        }, 
+        "frontend": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "ldd": {
+            "count": 3, 
+            "avg": 34
+        }, 
+        "dpkg-deb": {
+            "count": 11, 
+            "avg": 16
+        }, 
+        "kbd": {
+            "count": 1, 
+            "avg": 24
+        }, 
+        "lesspipe": {
+            "count": 4, 
+            "avg": 3
+        }, 
+        "thermal": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "30_os-prober": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "apt.postinst": {
+            "count": 2, 
+            "avg": 17
+        }, 
+        "dbus-daemon": {
+            "count": 4, 
+            "avg": 2
+        }, 
+        "find": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "intel_microcode": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "systemd": {
+            "count": 5, 
+            "avg": 13
+        }, 
+        "package-system-": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "py3compile": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "-w": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "dpkg-preconfigu": {
+            "count": 2, 
+            "avg": 7
+        }, 
+        "libc-bin.postin": {
+            "count": 6, 
+            "avg": 2
+        }, 
+        "libreoffice": {
+            "count": 2, 
+            "avg": 7
+        }, 
+        "os-prober": {
+            "count": 2, 
+            "avg": 18
+        }, 
+        "python3-jinja2.": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "apt-auto-remova": {
+            "count": 1, 
+            "avg": 33
+        }, 
+        "python": {
+            "count": 5, 
+            "avg": 10
+        }, 
+        "webapp-containe": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "apt-cache": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "systemctl": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "gnome-menus.pos": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "hicolor-icon-th": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "brltty": {
+            "count": 1, 
+            "avg": 10
+        }, 
+        "dhclient": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "zz-busybox-init": {
+            "count": 1, 
+            "avg": 140
+        }, 
+        "apt.postrm": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "Chrome_ProcessL": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "collect": {
+            "count": 8, 
+            "avg": 1
+        }, 
+        "gnome-terminal": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "mkinitramfs": {
+            "count": 9, 
+            "avg": 331
+        }, 
+        "friendly-recove": {
+            "count": 5, 
+            "avg": 1
+        }, 
+        "osl_executeProc": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "udev": {
+            "count": 1, 
+            "avg": 125
+        }, 
+        "cron": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "compiz": {
+            "count": 17, 
+            "avg": 6
+        }, 
+        "dkms": {
+            "count": 12, 
+            "avg": 12
+        }, 
+        "unity-webapps-r": {
+            "count": 4, 
+            "avg": 9
+        }, 
+        "unity-webapps-s": {
+            "count": 1, 
+            "avg": 6
+        }, 
+        "start_servers.py": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "/usr/bin/deb-systemd-invoke": {
+            "count": 1, 
+            "avg": 5
+        }, 
+        "firefox.postins": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "apt-extracttemp": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "run-parts": {
+            "count": 5, 
+            "avg": 2
+        }, 
+        "preinst": {
+            "count": 4, 
+            "avg": 3
+        }, 
+        "gnome-terminal-": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "ureadahead.post": {
+            "count": 1, 
+            "avg": 15
+        }, 
+        "pm-utils": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "py3clean": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "(ostnamed)": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "(spatcher)": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "ntfs_3g": {
+            "count": 1, 
+            "avg": 19
+        }, 
+        "update-rc.d": {
+            "count": 1, 
+            "avg": 7
+        }, 
+        "apt-key": {
+            "count": 1, 
+            "avg": 115
+        }, 
+        "upstart-prestar": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "desktop-file-ut": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "gvfsd": {
+            "count": 3, 
+            "avg": 7
+        }, 
+        "bash": {
+            "count": 43, 
+            "avg": 1
+        }, 
+        "xargs": {
+            "count": 13, 
+            "avg": 1
+        }, 
+        "(snapd)": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "fixrtc": {
+            "count": 1, 
+            "avg": 41
+        }, 
+        "prlshprint": {
+            "count": 2603, 
+            "avg": 1
+        }, 
+        "intel-microcode": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "apt.prerm": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "update-motd-upd": {
+            "count": 3, 
+            "avg": 6
+        }, 
+        "apt-check": {
+            "count": 6, 
+            "avg": 3
+        }, 
+        "firefox": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "cc": {
+            "count": 13, 
+            "avg": 134
+        }, 
+        "gpgv": {
+            "count": 1, 
+            "avg": 5
+        }, 
+        "/usr/bin/deb-systemd-helper": {
+            "count": 1, 
+            "avg": 5
+        }, 
+        "apt": {
+            "count": 14, 
+            "avg": 1
+        }, 
+        "chrome-sandbox": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "linux-image-4.": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "nm-dispatcher": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "soffice.bin": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "/usr/sbin/update-rc.d": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "perl": {
+            "count": 2, 
+            "avg": 4
+        }, 
+        "update-notifier": {
+            "count": 3, 
+            "avg": 5
+        }, 
+        "klibc-utils": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "ubuntu-webapps-": {
+            "count": 1, 
+            "avg": 6
+        }, 
+        "update-initramf": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "upstart": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "zz-update-grub": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "unattended-upgr": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "apt-config": {
+            "count": 4, 
+            "avg": 12
+        }, 
+        "framebuffer": {
+            "count": 3, 
+            "avg": 445
+        }, 
+        "10_linux": {
+            "count": 1, 
+            "avg": 279
+        }, 
+        "dpkg": {
+            "count": 19, 
+            "avg": 29
+        }, 
+        "dpkg-maintscrip": {
+            "count": 6, 
+            "avg": 5
+        }, 
+        "05_debian_theme": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "resume": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "plymouth": {
+            "count": 2, 
+            "avg": 226
+        }, 
+        "grub-mkconfig": {
+            "count": 3, 
+            "avg": 12
+        }, 
+        "grub-probe": {
+            "count": 2, 
+            "avg": 490
+        }, 
+        "apparmor.postrm": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "sudo": {
+            "count": 10, 
+            "avg": 4
+        }, 
+        "20_memtest86+": {
+            "count": 1, 
+            "avg": 16
+        }, 
+        "/usr/lib/update-notifier/apt-check": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "initramfs-tools": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "gcc": {
+            "count": 4, 
+            "avg": 5
+        }, 
+        "zz-dhclient": {
+            "count": 1, 
+            "avg": 38
+        }, 
+        "make": {
+            "count": 13, 
+            "avg": 114
+        }, 
+        "apparmor.postin": {
+            "count": 2, 
+            "avg": 16
+        }, 
+        "20_linux_xen": {
+            "count": 1, 
+            "avg": 18
+        }, 
+        "systemd.postins": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "linux-modules-e": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "bamfdaemon.post": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "console_setup": {
+            "count": 1, 
+            "avg": 7
+        }, 
+        "linux-modules-": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "/usr/bin/gnome-terminal": {
+            "count": 3, 
+            "avg": 10
+        }, 
+        "parallels_tools": {
+            "count": 1, 
+            "avg": 5
+        }, 
+        "-Es": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "kmod": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "dkms_autoinstal": {
+            "count": 2, 
+            "avg": 5
+        }, 
+        "fsck": {
+            "count": 1, 
+            "avg": 101
+        }, 
+        "IPC Launch #": {
+            "count": 10, 
+            "avg": 5
+        }, 
+        "fuse": {
+            "count": 1, 
+            "avg": 10
+        }, 
+        "snapd": {
+            "count": 4, 
+            "avg": 4
+        }, 
+        "30_uefi-firmwar": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "/usr/sbin/update-mime": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "compcache": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "amd64_microcode": {
+            "count": 1, 
+            "avg": 16
+        }, 
+        "linux-headers-": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "10filesystems": {
+            "count": 2, 
+            "avg": 15
+        }, 
+        "man-db.postinst": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "41_custom": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "sh": {
+            "count": 2629, 
+            "avg": 1
+        }, 
+        "apparmor.prerm": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "00_header": {
+            "count": 2, 
+            "avg": 18
+        }
+    }
+}

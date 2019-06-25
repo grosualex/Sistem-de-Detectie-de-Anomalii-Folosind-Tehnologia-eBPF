@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnomalyDetections</string>
+    <string name="channel_name">AnomalyDetectionChannel2</string>
+    <string name="channel_description">Channel for AnomalyDetection app</string>
+    <string name="server_ip_default">10.211.55.10</string>
+    <string name="server_ip_key">server_ip</string>
+    <string name="server_ip">Server IP</string>
+</resources>

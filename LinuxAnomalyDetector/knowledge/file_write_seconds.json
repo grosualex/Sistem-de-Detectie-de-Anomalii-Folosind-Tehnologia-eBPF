@@ -1,0 +1,1546 @@
+{
+    "max": {
+        "ibus-ui-gtk": 129, 
+        "busybox": 180, 
+        "frontend": 314, 
+        "ldd": 109, 
+        "apparmor.postin": 14, 
+        "basename": 64, 
+        "Socket Thread": 1490, 
+        "kbd": 6, 
+        "lesspipe": 64, 
+        "gnome-keyring-d": 378, 
+        "uname": 458, 
+        "BrowserBlocking": 236, 
+        "modinfo": 19, 
+        "systemd-logind": 5, 
+        "all_generic_ide": 1, 
+        "objcopy": 7, 
+        "dbus-daemon": 16, 
+        "find": 18, 
+        "sha1sum": 1, 
+        "bamfdaemon.post": 3, 
+        "systemd": 299, 
+        "cut": 4, 
+        "py3compile": 1, 
+        "tr": 9, 
+        "tail": 7, 
+        "upowerd": 36, 
+        "ls": 51, 
+        "Xorg": 665, 
+        "avahi-daemon": 320, 
+        "Compositor": 1237, 
+        "QXcbEventReader": 3549, 
+        "Chrome_FileThre": 906, 
+        "unity-fallback-": 64, 
+        "gvfsd-network": 78, 
+        "Gecko_IOThread": 1371, 
+        "at-spi2-registr": 64, 
+        "mozStorage #": 526, 
+        "apt-auto-remova": 48, 
+        "python": 831, 
+        "kmod": 1, 
+        "webapp-containe": 3718, 
+        "run-parts": 7, 
+        "apt-cache": 41362, 
+        "DOM File": 132, 
+        "prlshprof": 8, 
+        "recordmcount": 6, 
+        "systemctl": 2, 
+        "brltty": 1, 
+        "stty": 30, 
+        "pkexec": 56, 
+        "oosplash": 458, 
+        "WorkerPool/": 985, 
+        "00_header": 31, 
+        "zz-busybox-init": 2, 
+        "ImageBr~geChild": 1319, 
+        "blkid": 6, 
+        "grub-mkrelpath": 5, 
+        "upstart-dbus-br": 749, 
+        "apparmor_parser": 340, 
+        "notify-osd": 64, 
+        "paperconf": 5, 
+        "Chrome_IOThread": 5073, 
+        "window-stack-br": 64, 
+        "gvfs-goa-volume": 19, 
+        "Chrome_InProcGp": 3463, 
+        "getconf": 6, 
+        "/usr/bin/update-manager": 3, 
+        "dpkg-query": 1070, 
+        "mkinitramfs": 86, 
+        "amd64_microcode": 1, 
+        "ibus-engine-sim": 126, 
+        "locale": 30, 
+        "linux-modules-e": 1, 
+        "update-alternat": 47, 
+        "cron": 1, 
+        "sed": 231, 
+        "compiz": 693, 
+        "wc": 4, 
+        "linux-update-sy": 4, 
+        "dirname": 64, 
+        "dconf worker": 796, 
+        "gmain": 116, 
+        "evolution-calen": 31, 
+        "systemd-fstab-g": 6, 
+        "mktemp": 16, 
+        "unity-webapps-s": 6, 
+        "uniq": 1, 
+        "udevadm": 98, 
+        "collect": 56, 
+        "start_servers.py": 662, 
+        "ibus-x": 64, 
+        "upstart-file-br": 31, 
+        "insserv": 3, 
+        "modpost": 2, 
+        "10filesystems": 62, 
+        "appstreamcli": 16, 
+        "StreamTrans #": 6, 
+        "gvfsd-smb-brows": 135, 
+        "mandb": 3312, 
+        "SimpleCacheWork": 2561, 
+        "gnome-terminal-": 222, 
+        "gnome-terminal.": 94, 
+        "fwupd": 62, 
+        "dircolors": 64, 
+        "objdump": 27, 
+        "AudioIPC Server": 929, 
+        "javaldx": 458, 
+        "stat": 2, 
+        "dkms_autoinstal": 2, 
+        "JS Helper": 135, 
+        "logger": 20, 
+        "DOM Worker": 455, 
+        "(spatcher)": 31, 
+        "fsck": 55, 
+        "intel_microcode": 1, 
+        "apt-extracttemp": 30, 
+        "readelf": 13, 
+        "ld": 92, 
+        "Timer": 1573, 
+        "tsort": 3, 
+        "apt-key": 35, 
+        "WebExtensions": 68, 
+        "depmod": 1599, 
+        "nm-applet": 64, 
+        "zeitgeist-daemo": 196, 
+        "indicator-sessi": 42, 
+        "modprobe": 22, 
+        "gvfsd": 196, 
+        "paste": 20, 
+        "ntfs_3g": 4, 
+        "gnome-system-mo": 48, 
+        "MediaPl~back #": 539, 
+        "indicator-sound": 249, 
+        "fixrtc": 13, 
+        "systemd-udevd": 56, 
+        "upstart-udev-br": 62, 
+        "grub-probe": 13, 
+        "IPDL Background": 1587, 
+        "keymap": 1, 
+        "alsa-sink-Intel": 260, 
+        "tracer.py": 1871, 
+        "awk": 7, 
+        "snapd": 68, 
+        "firefox.postins": 1, 
+        "apt-check": 16, 
+        "firefox": 1463, 
+        "cc": 64, 
+        "gpgv": 11782, 
+        "apt": 335, 
+        "echo": 6, 
+        "chrome-sandbox": 2, 
+        "thermald": 12, 
+        "strip": 68, 
+        "diff": 1, 
+        "cp": 717, 
+        "gnome-software": 66, 
+        "Link Monitor": 20, 
+        "linux-image-4.": 1, 
+        "threaded-ml": 1178, 
+        "ps": 205, 
+        "nm-dispatcher": 31, 
+        "oxide-renderer": 640, 
+        "readlink": 72, 
+        "soffice.bin": 604, 
+        "lsb_release": 2, 
+        "unity-scope-hom": 604, 
+        "linux-modules-": 28, 
+        "/usr/sbin/update-rc.d": 1, 
+        "lpstat": 8, 
+        "-w": 30, 
+        "perl": 2, 
+        "indicator-power": 28, 
+        "nm-dhcp-helper": 16, 
+        "fuser": 16, 
+        "Cookie": 134, 
+        "fixdep": 34, 
+        "https": 26, 
+        "unix_chkpwd": 1, 
+        "NetworkManager": 294, 
+        "ImgDecoder #": 1069, 
+        "iucode_tool": 116, 
+        "update-notifier": 64, 
+        "sort": 16, 
+        "dconf-service": 33, 
+        "head": 1, 
+        "systemd-detect-": 340, 
+        "cups-browsed": 16, 
+        "ubuntu-webapps-": 1550, 
+        "update-initramf": 1, 
+        "unity-scope-loa": 31, 
+        "ibus-daemon": 482, 
+        "whoopsie": 31, 
+        "zz-update-grub": 11, 
+        "blacklist": 1, 
+        "apt-config": 16, 
+        "udisksd": 340, 
+        "udev": 50, 
+        "libreoffice": 458, 
+        "dpkg-trigger": 28, 
+        "framebuffer": 1, 
+        "10_linux": 204, 
+        "upstart": 62, 
+        "os-prober": 62, 
+        "dpkg-preconfigu": 319, 
+        "InputThread": 977, 
+        "gvfsd-dnssd": 117, 
+        "grep": 5, 
+        "(snapd)": 340, 
+        "05_debian_theme": 3, 
+        "python3.": 25, 
+        "resume": 3, 
+        "cat": 25, 
+        "(ostnamed)": 8, 
+        "plymouth": 172, 
+        "ar": 2, 
+        "QSGRenderThread": 2111, 
+        "grub-mkconfig": 11, 
+        "systemd-sysv-ge": 6, 
+        "Web Content": 1498, 
+        "indicator-datet": 27, 
+        "cupsd": 1, 
+        "SSL Cert #": 92, 
+        "gnome-terminal": 196, 
+        "polkit-gnome-au": 64, 
+        "bamfdaemon": 314, 
+        "nautilus": 12, 
+        "tar": 150, 
+        "prltimesync": 10, 
+        "sudo": 6, 
+        "StreamT~ns #": 81, 
+        "accounts-daemon": 15, 
+        "as": 366, 
+        "gtk-update-icon": 8, 
+        "rs:main Q:Reg": 26, 
+        "dhclient": 6, 
+        "pwd": 2, 
+        "41_custom": 20, 
+        "20_memtest86+": 62, 
+        "id": 1, 
+        "Chrome_ChildIOT": 3942, 
+        "update-mime": 6, 
+        "bash": 216, 
+        "zeitgeist-fts": 92, 
+        "dpkg": 6541, 
+        "ImageIO": 528, 
+        "indicator-appli": 64, 
+        "gvfsd-trash": 340, 
+        "make": 19, 
+        "rtkit-daemon": 1, 
+        "dpkg-deb": 12800, 
+        "20_linux_xen": 62, 
+        "gettext": 38, 
+        "evolution-addre": 31, 
+        "thermal": 1, 
+        "cleanup": 8, 
+        "deja-dup-monito": 31, 
+        "systemd-insserv": 6, 
+        "which": 5, 
+        "console_setup": 1, 
+        "getopt": 1, 
+        "dkms": 3818, 
+        "CompositorTileW": 499, 
+        "/usr/bin/gnome-terminal": 64, 
+        "parallels_tools": 1, 
+        "unity-webapps-r": 48, 
+        "prlcp": 4, 
+        "polkitd": 151, 
+        "http": 1056, 
+        "prlsga": 8, 
+        "ubuntu-geoip-pr": 154, 
+        "unity-files-dae": 11, 
+        "hud-service": 787, 
+        "cpio": 44645, 
+        "IPC Launch #": 271, 
+        "prlcc": 8, 
+        "fuse": 4, 
+        "Softwar~cThread": 1987, 
+        "update-motd-upd": 20, 
+        "unity-panel-ser": 748, 
+        "date": 6, 
+        "localStorage DB": 203, 
+        "configmgrWriter": 612, 
+        "gvfs-udisks2-vo": 37, 
+        "DNS Resolver #": 40, 
+        "pool": 4569, 
+        "klibc-utils": 1, 
+        "apparmor.config": 6, 
+        "prldnd": 245, 
+        "Chrome_~dThread": 1386, 
+        "gdbus": 4623, 
+        "update-desktop-": 7, 
+        "unity-settings-": 200, 
+        "gvfsd-http": 141, 
+        "ldconfig.real": 10, 
+        "clear": 1, 
+        "pulseaudio": 346, 
+        "indicator-print": 64, 
+        "systemd-journal": 6, 
+        "Cache2 I/O": 1863, 
+        "sh": 183, 
+        "URL Classifier": 1143, 
+        "PaintThread": 864, 
+        "gzip": 570, 
+        "gnome-session-b": 37, 
+        "unity-control-c": 147, 
+        "zz-dhclient": 8, 
+        "indicator-keybo": 85, 
+        "gpg-agent": 11
+    }, 
+    "average": {
+        "ibus-ui-gtk": {
+            "count": 9, 
+            "avg": 63
+        }, 
+        "busybox": {
+            "count": 2, 
+            "avg": 92
+        }, 
+        "frontend": {
+            "count": 1, 
+            "avg": 314
+        }, 
+        "ldd": {
+            "count": 4, 
+            "avg": 63
+        }, 
+        "apparmor.postin": {
+            "count": 1, 
+            "avg": 14
+        }, 
+        "basename": {
+            "count": 16, 
+            "avg": 1
+        }, 
+        "Socket Thread": {
+            "count": 24, 
+            "avg": 470
+        }, 
+        "kbd": {
+            "count": 3, 
+            "avg": 4
+        }, 
+        "lesspipe": {
+            "count": 4, 
+            "avg": 4
+        }, 
+        "gnome-keyring-d": {
+            "count": 6, 
+            "avg": 116
+        }, 
+        "uname": {
+            "count": 19, 
+            "avg": 1
+        }, 
+        "BrowserBlocking": {
+            "count": 2, 
+            "avg": 165
+        }, 
+        "modinfo": {
+            "count": 6, 
+            "avg": 5
+        }, 
+        "systemd-logind": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "all_generic_ide": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "objcopy": {
+            "count": 4, 
+            "avg": 7
+        }, 
+        "dbus-daemon": {
+            "count": 4, 
+            "avg": 16
+        }, 
+        "find": {
+            "count": 23, 
+            "avg": 1
+        }, 
+        "sha1sum": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "bamfdaemon.post": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "systemd": {
+            "count": 14, 
+            "avg": 56
+        }, 
+        "cut": {
+            "count": 7, 
+            "avg": 1
+        }, 
+        "py3compile": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "tr": {
+            "count": 3, 
+            "avg": 3
+        }, 
+        "tail": {
+            "count": 12, 
+            "avg": 1
+        }, 
+        "upowerd": {
+            "count": 32, 
+            "avg": 1
+        }, 
+        "ls": {
+            "count": 20, 
+            "avg": 1
+        }, 
+        "Xorg": {
+            "count": 1816, 
+            "avg": 4
+        }, 
+        "avahi-daemon": {
+            "count": 742, 
+            "avg": 4
+        }, 
+        "Compositor": {
+            "count": 491, 
+            "avg": 138
+        }, 
+        "QXcbEventReader": {
+            "count": 42, 
+            "avg": 1771
+        }, 
+        "Chrome_FileThre": {
+            "count": 1, 
+            "avg": 906
+        }, 
+        "unity-fallback-": {
+            "count": 11, 
+            "avg": 5
+        }, 
+        "gvfsd-network": {
+            "count": 1, 
+            "avg": 78
+        }, 
+        "Gecko_IOThread": {
+            "count": 27, 
+            "avg": 541
+        }, 
+        "at-spi2-registr": {
+            "count": 28, 
+            "avg": 18
+        }, 
+        "mozStorage #": {
+            "count": 1, 
+            "avg": 526
+        }, 
+        "apt-auto-remova": {
+            "count": 1, 
+            "avg": 48
+        }, 
+        "python": {
+            "count": 136, 
+            "avg": 360
+        }, 
+        "kmod": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "webapp-containe": {
+            "count": 37, 
+            "avg": 1631
+        }, 
+        "run-parts": {
+            "count": 6, 
+            "avg": 2
+        }, 
+        "apt-cache": {
+            "count": 3, 
+            "avg": 64747
+        }, 
+        "DOM File": {
+            "count": 1, 
+            "avg": 132
+        }, 
+        "prlshprof": {
+            "count": 2589, 
+            "avg": 1
+        }, 
+        "recordmcount": {
+            "count": 5, 
+            "avg": 2
+        }, 
+        "systemctl": {
+            "count": 5, 
+            "avg": 1
+        }, 
+        "brltty": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "stty": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "pkexec": {
+            "count": 2, 
+            "avg": 54
+        }, 
+        "oosplash": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "WorkerPool/": {
+            "count": 1, 
+            "avg": 985
+        }, 
+        "00_header": {
+            "count": 1, 
+            "avg": 31
+        }, 
+        "zz-busybox-init": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "ImageBr~geChild": {
+            "count": 191, 
+            "avg": 209
+        }, 
+        "blkid": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "grub-mkrelpath": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "upstart-dbus-br": {
+            "count": 280, 
+            "avg": 2
+        }, 
+        "apparmor_parser": {
+            "count": 7, 
+            "avg": 7
+        }, 
+        "notify-osd": {
+            "count": 3, 
+            "avg": 14
+        }, 
+        "paperconf": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "Chrome_IOThread": {
+            "count": 49, 
+            "avg": 2265
+        }, 
+        "window-stack-br": {
+            "count": 60, 
+            "avg": 2
+        }, 
+        "gvfs-goa-volume": {
+            "count": 1, 
+            "avg": 19
+        }, 
+        "Chrome_InProcGp": {
+            "count": 33, 
+            "avg": 1918
+        }, 
+        "getconf": {
+            "count": 9, 
+            "avg": 3
+        }, 
+        "/usr/bin/update-manager": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "dpkg-query": {
+            "count": 2, 
+            "avg": 65
+        }, 
+        "mkinitramfs": {
+            "count": 6, 
+            "avg": 22
+        }, 
+        "amd64_microcode": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "ibus-engine-sim": {
+            "count": 41, 
+            "avg": 47
+        }, 
+        "locale": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "linux-modules-e": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "update-alternat": {
+            "count": 2, 
+            "avg": 25
+        }, 
+        "cron": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "sed": {
+            "count": 2619, 
+            "avg": 1
+        }, 
+        "compiz": {
+            "count": 2211, 
+            "avg": 9
+        }, 
+        "wc": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "linux-update-sy": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "dirname": {
+            "count": 12, 
+            "avg": 3
+        }, 
+        "dconf worker": {
+            "count": 12, 
+            "avg": 250
+        }, 
+        "gmain": {
+            "count": 117, 
+            "avg": 10
+        }, 
+        "evolution-calen": {
+            "count": 16, 
+            "avg": 7
+        }, 
+        "systemd-fstab-g": {
+            "count": 5, 
+            "avg": 2
+        }, 
+        "mktemp": {
+            "count": 18, 
+            "avg": 1
+        }, 
+        "unity-webapps-s": {
+            "count": 3, 
+            "avg": 7
+        }, 
+        "uniq": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "udevadm": {
+            "count": 2, 
+            "avg": 98
+        }, 
+        "collect": {
+            "count": 8, 
+            "avg": 33
+        }, 
+        "start_servers.py": {
+            "count": 556, 
+            "avg": 5
+        }, 
+        "ibus-x": {
+            "count": 3, 
+            "avg": 3
+        }, 
+        "upstart-file-br": {
+            "count": 26, 
+            "avg": 1
+        }, 
+        "insserv": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "modpost": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "10filesystems": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "appstreamcli": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "StreamTrans #": {
+            "count": 2, 
+            "avg": 4
+        }, 
+        "gvfsd-smb-brows": {
+            "count": 1, 
+            "avg": 135
+        }, 
+        "mandb": {
+            "count": 4, 
+            "avg": 2168
+        }, 
+        "SimpleCacheWork": {
+            "count": 6, 
+            "avg": 2510
+        }, 
+        "gnome-terminal-": {
+            "count": 1001, 
+            "avg": 2
+        }, 
+        "gnome-terminal.": {
+            "count": 2, 
+            "avg": 94
+        }, 
+        "fwupd": {
+            "count": 20, 
+            "avg": 2
+        }, 
+        "dircolors": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "objdump": {
+            "count": 5, 
+            "avg": 12
+        }, 
+        "AudioIPC Server": {
+            "count": 1, 
+            "avg": 929
+        }, 
+        "javaldx": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "stat": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "dkms_autoinstal": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "JS Helper": {
+            "count": 1, 
+            "avg": 135
+        }, 
+        "logger": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "DOM Worker": {
+            "count": 2, 
+            "avg": 301
+        }, 
+        "(spatcher)": {
+            "count": 2, 
+            "avg": 30
+        }, 
+        "fsck": {
+            "count": 2, 
+            "avg": 28
+        }, 
+        "intel_microcode": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "apt-extracttemp": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "readelf": {
+            "count": 5, 
+            "avg": 7
+        }, 
+        "ld": {
+            "count": 12, 
+            "avg": 43
+        }, 
+        "Timer": {
+            "count": 761, 
+            "avg": 6
+        }, 
+        "tsort": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "apt-key": {
+            "count": 1, 
+            "avg": 35
+        }, 
+        "WebExtensions": {
+            "count": 255, 
+            "avg": 2
+        }, 
+        "depmod": {
+            "count": 5, 
+            "avg": 1079
+        }, 
+        "nm-applet": {
+            "count": 11, 
+            "avg": 5
+        }, 
+        "zeitgeist-daemo": {
+            "count": 6, 
+            "avg": 73
+        }, 
+        "indicator-sessi": {
+            "count": 1, 
+            "avg": 42
+        }, 
+        "modprobe": {
+            "count": 9, 
+            "avg": 10
+        }, 
+        "gvfsd": {
+            "count": 13, 
+            "avg": 14
+        }, 
+        "paste": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "ntfs_3g": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "gnome-system-mo": {
+            "count": 9, 
+            "avg": 6
+        }, 
+        "MediaPl~back #": {
+            "count": 102, 
+            "avg": 185
+        }, 
+        "indicator-sound": {
+            "count": 77, 
+            "avg": 63
+        }, 
+        "fixrtc": {
+            "count": 3, 
+            "avg": 8
+        }, 
+        "systemd-udevd": {
+            "count": 22, 
+            "avg": 2
+        }, 
+        "upstart-udev-br": {
+            "count": 26, 
+            "avg": 2
+        }, 
+        "grub-probe": {
+            "count": 2, 
+            "avg": 12
+        }, 
+        "IPDL Background": {
+            "count": 77, 
+            "avg": 481
+        }, 
+        "keymap": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "alsa-sink-Intel": {
+            "count": 206, 
+            "avg": 126
+        }, 
+        "tracer.py": {
+            "count": 755, 
+            "avg": 183
+        }, 
+        "awk": {
+            "count": 15, 
+            "avg": 1
+        }, 
+        "snapd": {
+            "count": 13, 
+            "avg": 28
+        }, 
+        "firefox.postins": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "apt-check": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "firefox": {
+            "count": 56, 
+            "avg": 528
+        }, 
+        "cc": {
+            "count": 13, 
+            "avg": 40
+        }, 
+        "gpgv": {
+            "count": 1, 
+            "avg": 11782
+        }, 
+        "apt": {
+            "count": 48, 
+            "avg": 24
+        }, 
+        "echo": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "chrome-sandbox": {
+            "count": 7, 
+            "avg": 3
+        }, 
+        "thermald": {
+            "count": 51, 
+            "avg": 4
+        }, 
+        "strip": {
+            "count": 1, 
+            "avg": 68
+        }, 
+        "diff": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "cp": {
+            "count": 16, 
+            "avg": 158
+        }, 
+        "gnome-software": {
+            "count": 30, 
+            "avg": 3
+        }, 
+        "Link Monitor": {
+            "count": 1, 
+            "avg": 20
+        }, 
+        "linux-image-4.": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "threaded-ml": {
+            "count": 178, 
+            "avg": 165
+        }, 
+        "ps": {
+            "count": 3, 
+            "avg": 72
+        }, 
+        "nm-dispatcher": {
+            "count": 4, 
+            "avg": 8
+        }, 
+        "oxide-renderer": {
+            "count": 111, 
+            "avg": 242
+        }, 
+        "readlink": {
+            "count": 12, 
+            "avg": 11
+        }, 
+        "soffice.bin": {
+            "count": 8, 
+            "avg": 177
+        }, 
+        "lsb_release": {
+            "count": 7, 
+            "avg": 1
+        }, 
+        "unity-scope-hom": {
+            "count": 4, 
+            "avg": 74
+        }, 
+        "linux-modules-": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "/usr/sbin/update-rc.d": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "lpstat": {
+            "count": 2625, 
+            "avg": 1
+        }, 
+        "-w": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "perl": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "indicator-power": {
+            "count": 1, 
+            "avg": 26
+        }, 
+        "nm-dhcp-helper": {
+            "count": 1, 
+            "avg": 16
+        }, 
+        "fuser": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "Cookie": {
+            "count": 1, 
+            "avg": 134
+        }, 
+        "fixdep": {
+            "count": 7, 
+            "avg": 16
+        }, 
+        "https": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "unix_chkpwd": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "NetworkManager": {
+            "count": 110, 
+            "avg": 4
+        }, 
+        "ImgDecoder #": {
+            "count": 1, 
+            "avg": 1069
+        }, 
+        "iucode_tool": {
+            "count": 1, 
+            "avg": 116
+        }, 
+        "update-notifier": {
+            "count": 13, 
+            "avg": 5
+        }, 
+        "sort": {
+            "count": 9, 
+            "avg": 1
+        }, 
+        "dconf-service": {
+            "count": 3, 
+            "avg": 17
+        }, 
+        "head": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "systemd-detect-": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "cups-browsed": {
+            "count": 25, 
+            "avg": 7
+        }, 
+        "ubuntu-webapps-": {
+            "count": 2, 
+            "avg": 1572
+        }, 
+        "update-initramf": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "unity-scope-loa": {
+            "count": 8, 
+            "avg": 20
+        }, 
+        "ibus-daemon": {
+            "count": 52, 
+            "avg": 105
+        }, 
+        "whoopsie": {
+            "count": 16, 
+            "avg": 2
+        }, 
+        "zz-update-grub": {
+            "count": 1, 
+            "avg": 11
+        }, 
+        "blacklist": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "apt-config": {
+            "count": 3, 
+            "avg": 7
+        }, 
+        "udisksd": {
+            "count": 5, 
+            "avg": 24
+        }, 
+        "udev": {
+            "count": 3, 
+            "avg": 24
+        }, 
+        "libreoffice": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "dpkg-trigger": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "framebuffer": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "10_linux": {
+            "count": 2, 
+            "avg": 111
+        }, 
+        "upstart": {
+            "count": 149, 
+            "avg": 2
+        }, 
+        "os-prober": {
+            "count": 2, 
+            "avg": 13
+        }, 
+        "dpkg-preconfigu": {
+            "count": 1, 
+            "avg": 319
+        }, 
+        "InputThread": {
+            "count": 364, 
+            "avg": 47
+        }, 
+        "gvfsd-dnssd": {
+            "count": 3, 
+            "avg": 66
+        }, 
+        "grep": {
+            "count": 16, 
+            "avg": 1
+        }, 
+        "(snapd)": {
+            "count": 2, 
+            "avg": 15
+        }, 
+        "05_debian_theme": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "python3.": {
+            "count": 1, 
+            "avg": 25
+        }, 
+        "resume": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "cat": {
+            "count": 21, 
+            "avg": 3
+        }, 
+        "(ostnamed)": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "plymouth": {
+            "count": 4, 
+            "avg": 56
+        }, 
+        "ar": {
+            "count": 6, 
+            "avg": 1
+        }, 
+        "QSGRenderThread": {
+            "count": 4, 
+            "avg": 1312
+        }, 
+        "grub-mkconfig": {
+            "count": 3, 
+            "avg": 7
+        }, 
+        "systemd-sysv-ge": {
+            "count": 5, 
+            "avg": 6
+        }, 
+        "Web Content": {
+            "count": 172, 
+            "avg": 300
+        }, 
+        "indicator-datet": {
+            "count": 45, 
+            "avg": 3
+        }, 
+        "cupsd": {
+            "count": 11, 
+            "avg": 1
+        }, 
+        "SSL Cert #": {
+            "count": 1, 
+            "avg": 92
+        }, 
+        "gnome-terminal": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "polkit-gnome-au": {
+            "count": 11, 
+            "avg": 5
+        }, 
+        "bamfdaemon": {
+            "count": 72, 
+            "avg": 68
+        }, 
+        "nautilus": {
+            "count": 13, 
+            "avg": 2
+        }, 
+        "tar": {
+            "count": 11, 
+            "avg": 49
+        }, 
+        "prltimesync": {
+            "count": 45, 
+            "avg": 2
+        }, 
+        "sudo": {
+            "count": 16, 
+            "avg": 2
+        }, 
+        "StreamT~ns #": {
+            "count": 1, 
+            "avg": 81
+        }, 
+        "accounts-daemon": {
+            "count": 1, 
+            "avg": 15
+        }, 
+        "as": {
+            "count": 13, 
+            "avg": 216
+        }, 
+        "gtk-update-icon": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "rs:main Q:Reg": {
+            "count": 52, 
+            "avg": 3
+        }, 
+        "dhclient": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "pwd": {
+            "count": 1, 
+            "avg": 2
+        }, 
+        "41_custom": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "20_memtest86+": {
+            "count": 1, 
+            "avg": 18
+        }, 
+        "id": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "Chrome_ChildIOT": {
+            "count": 14, 
+            "avg": 1766
+        }, 
+        "update-mime": {
+            "count": 1, 
+            "avg": 6
+        }, 
+        "bash": {
+            "count": 96, 
+            "avg": 2
+        }, 
+        "zeitgeist-fts": {
+            "count": 5, 
+            "avg": 102
+        }, 
+        "dpkg": {
+            "count": 45, 
+            "avg": 875
+        }, 
+        "ImageIO": {
+            "count": 2, 
+            "avg": 452
+        }, 
+        "indicator-appli": {
+            "count": 45, 
+            "avg": 6
+        }, 
+        "gvfsd-trash": {
+            "count": 4, 
+            "avg": 8
+        }, 
+        "make": {
+            "count": 10, 
+            "avg": 6
+        }, 
+        "rtkit-daemon": {
+            "count": 373, 
+            "avg": 1
+        }, 
+        "dpkg-deb": {
+            "count": 27, 
+            "avg": 5295
+        }, 
+        "20_linux_xen": {
+            "count": 1, 
+            "avg": 8
+        }, 
+        "gettext": {
+            "count": 3, 
+            "avg": 14
+        }, 
+        "evolution-addre": {
+            "count": 16, 
+            "avg": 2
+        }, 
+        "thermal": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "cleanup": {
+            "count": 1, 
+            "avg": 6
+        }, 
+        "deja-dup-monito": {
+            "count": 17, 
+            "avg": 2
+        }, 
+        "systemd-insserv": {
+            "count": 5, 
+            "avg": 6
+        }, 
+        "which": {
+            "count": 7, 
+            "avg": 1
+        }, 
+        "console_setup": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "getopt": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "dkms": {
+            "count": 14, 
+            "avg": 439
+        }, 
+        "CompositorTileW": {
+            "count": 26, 
+            "avg": 220
+        }, 
+        "/usr/bin/gnome-terminal": {
+            "count": 2, 
+            "avg": 5
+        }, 
+        "parallels_tools": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "unity-webapps-r": {
+            "count": 4, 
+            "avg": 45
+        }, 
+        "prlcp": {
+            "count": 17, 
+            "avg": 2
+        }, 
+        "polkitd": {
+            "count": 2, 
+            "avg": 98
+        }, 
+        "http": {
+            "count": 21, 
+            "avg": 321
+        }, 
+        "prlsga": {
+            "count": 2618, 
+            "avg": 1
+        }, 
+        "ubuntu-geoip-pr": {
+            "count": 3, 
+            "avg": 150
+        }, 
+        "unity-files-dae": {
+            "count": 1, 
+            "avg": 11
+        }, 
+        "hud-service": {
+            "count": 47, 
+            "avg": 86
+        }, 
+        "cpio": {
+            "count": 10, 
+            "avg": 25189
+        }, 
+        "IPC Launch #": {
+            "count": 12, 
+            "avg": 112
+        }, 
+        "prlcc": {
+            "count": 2751, 
+            "avg": 1
+        }, 
+        "fuse": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "Softwar~cThread": {
+            "count": 16, 
+            "avg": 753
+        }, 
+        "update-motd-upd": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "unity-panel-ser": {
+            "count": 35, 
+            "avg": 60
+        }, 
+        "date": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "localStorage DB": {
+            "count": 2, 
+            "avg": 124
+        }, 
+        "configmgrWriter": {
+            "count": 2, 
+            "avg": 1004
+        }, 
+        "gvfs-udisks2-vo": {
+            "count": 4, 
+            "avg": 28
+        }, 
+        "DNS Resolver #": {
+            "count": 2, 
+            "avg": 21
+        }, 
+        "pool": {
+            "count": 22, 
+            "avg": 841
+        }, 
+        "klibc-utils": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "apparmor.config": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "prldnd": {
+            "count": 1, 
+            "avg": 3
+        }, 
+        "Chrome_~dThread": {
+            "count": 181, 
+            "avg": 175
+        }, 
+        "gdbus": {
+            "count": 696, 
+            "avg": 6
+        }, 
+        "update-desktop-": {
+            "count": 1, 
+            "avg": 7
+        }, 
+        "unity-settings-": {
+            "count": 81, 
+            "avg": 11
+        }, 
+        "gvfsd-http": {
+            "count": 5, 
+            "avg": 91
+        }, 
+        "ldconfig.real": {
+            "count": 8, 
+            "avg": 5
+        }, 
+        "clear": {
+            "count": 7, 
+            "avg": 1
+        }, 
+        "pulseaudio": {
+            "count": 539, 
+            "avg": 85
+        }, 
+        "indicator-print": {
+            "count": 11, 
+            "avg": 5
+        }, 
+        "systemd-journal": {
+            "count": 12, 
+            "avg": 2
+        }, 
+        "Cache2 I/O": {
+            "count": 3, 
+            "avg": 733
+        }, 
+        "sh": {
+            "count": 13, 
+            "avg": 96
+        }, 
+        "URL Classifier": {
+            "count": 3, 
+            "avg": 984
+        }, 
+        "PaintThread": {
+            "count": 12, 
+            "avg": 486
+        }, 
+        "gzip": {
+            "count": 9, 
+            "avg": 357
+        }, 
+        "gnome-session-b": {
+            "count": 4, 
+            "avg": 32
+        }, 
+        "unity-control-c": {
+            "count": 2, 
+            "avg": 172
+        }, 
+        "zz-dhclient": {
+            "count": 3, 
+            "avg": 4
+        }, 
+        "indicator-keybo": {
+            "count": 9, 
+            "avg": 30
+        }, 
+        "gpg-agent": {
+            "count": 45, 
+            "avg": 10
+        }
+    }
+}

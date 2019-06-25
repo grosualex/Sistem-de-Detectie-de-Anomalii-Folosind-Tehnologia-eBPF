@@ -1,0 +1,10 @@
+{
+	"modules": ["process_create",
+				"file_open",
+				"file_write",
+				"network_recvfrom",
+				"network_sendto",
+				"tcp_v4_connect"],
+
+	"log_path": "logs/log.txt"
+}

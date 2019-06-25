@@ -1,0 +1,286 @@
+{
+    "max": {
+        "firefox": 8, 
+        "nm-dhcp-helper": 4, 
+        "gvfsd-network": 12, 
+        "sudo": 58, 
+        "Socket Thread": 69, 
+        "cron": 8, 
+        "chrome-sandbox": 1, 
+        "compiz": 4, 
+        "CUPSManager cup": 4, 
+        "http": 4, 
+        "gnome-software": 1, 
+        "evolution-addre": 1, 
+        "Link Monitor": 2, 
+        "unity-webapps-r": 8, 
+        "systemd": 4, 
+        "soffice.bin": 16, 
+        "start_servers.py": 11, 
+        "dbus-daemon": 24, 
+        "lpstat": 18, 
+        "gvfsd-http": 19, 
+        "deja-dup-monito": 1, 
+        "evolution-calen": 2, 
+        "https": 5, 
+        "unix_chkpwd": 1, 
+        "Compositor": 82, 
+        "gnome-terminal.": 8, 
+        "ubuntu-geoip-pr": 13, 
+        "NetworkChangeNo": 158, 
+        "gvfsd-smb-brows": 16, 
+        "webapp-containe": 482, 
+        "nm-dispatcher": 6, 
+        "GpuMemoryThread": 631, 
+        "dconf worker": 26, 
+        "unity-panel-ser": 4, 
+        "CUPSManager get": 11, 
+        "Chrome_ChildIOT": 1285, 
+        "oxide-renderer": 252, 
+        "DNS Resolver #": 52, 
+        "pkexec": 8, 
+        "WorkerPool/": 420, 
+        "dhclient": 6, 
+        "gvfsd-dnssd": 15, 
+        "gnome-system-mo": 12, 
+        "indicator-sound": 1, 
+        "cupsd": 78, 
+        "pulseaudio": 3, 
+        "CompositorTileW": 68, 
+        "Chrome_IOThread": 688, 
+        "dnsmasq": 52, 
+        "alsa-sink-Intel": 4, 
+        "systemd-timesyn": 6, 
+        "whoopsie": 2, 
+        "(ostnamed)": 1, 
+        "prltoolsd": 4, 
+        "pool": 61, 
+        "threaded-ml": 186
+    }, 
+    "average": {
+        "firefox": {
+            "count": 2, 
+            "avg": 4
+        }, 
+        "nm-dhcp-helper": {
+            "count": 3, 
+            "avg": 4
+        }, 
+        "gvfsd-network": {
+            "count": 2, 
+            "avg": 20
+        }, 
+        "sudo": {
+            "count": 16, 
+            "avg": 18
+        }, 
+        "Socket Thread": {
+            "count": 361, 
+            "avg": 4
+        }, 
+        "cron": {
+            "count": 2, 
+            "avg": 8
+        }, 
+        "chrome-sandbox": {
+            "count": 4, 
+            "avg": 1
+        }, 
+        "compiz": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "CUPSManager cup": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "http": {
+            "count": 3, 
+            "avg": 1
+        }, 
+        "gnome-software": {
+            "count": 8, 
+            "avg": 1
+        }, 
+        "evolution-addre": {
+            "count": 8, 
+            "avg": 1
+        }, 
+        "Link Monitor": {
+            "count": 2, 
+            "avg": 2
+        }, 
+        "unity-webapps-r": {
+            "count": 5, 
+            "avg": 9
+        }, 
+        "systemd": {
+            "count": 15, 
+            "avg": 2
+        }, 
+        "soffice.bin": {
+            "count": 2, 
+            "avg": 14
+        }, 
+        "start_servers.py": {
+            "count": 1291, 
+            "avg": 1
+        }, 
+        "dbus-daemon": {
+            "count": 35, 
+            "avg": 6
+        }, 
+        "lpstat": {
+            "count": 2707, 
+            "avg": 1
+        }, 
+        "gvfsd-http": {
+            "count": 7, 
+            "avg": 3
+        }, 
+        "deja-dup-monito": {
+            "count": 8, 
+            "avg": 1
+        }, 
+        "evolution-calen": {
+            "count": 8, 
+            "avg": 2
+        }, 
+        "https": {
+            "count": 1, 
+            "avg": 5
+        }, 
+        "unix_chkpwd": {
+            "count": 2, 
+            "avg": 1
+        }, 
+        "Compositor": {
+            "count": 1, 
+            "avg": 82
+        }, 
+        "gnome-terminal.": {
+            "count": 2, 
+            "avg": 6
+        }, 
+        "ubuntu-geoip-pr": {
+            "count": 3, 
+            "avg": 13
+        }, 
+        "NetworkChangeNo": {
+            "count": 1, 
+            "avg": 158
+        }, 
+        "gvfsd-smb-brows": {
+            "count": 1, 
+            "avg": 16
+        }, 
+        "webapp-containe": {
+            "count": 8, 
+            "avg": 226
+        }, 
+        "nm-dispatcher": {
+            "count": 3, 
+            "avg": 6
+        }, 
+        "GpuMemoryThread": {
+            "count": 17, 
+            "avg": 348
+        }, 
+        "dconf worker": {
+            "count": 9, 
+            "avg": 21
+        }, 
+        "unity-panel-ser": {
+            "count": 1, 
+            "avg": 4
+        }, 
+        "CUPSManager get": {
+            "count": 1, 
+            "avg": 11
+        }, 
+        "Chrome_ChildIOT": {
+            "count": 166, 
+            "avg": 387
+        }, 
+        "oxide-renderer": {
+            "count": 7, 
+            "avg": 152
+        }, 
+        "DNS Resolver #": {
+            "count": 47, 
+            "avg": 5
+        }, 
+        "pkexec": {
+            "count": 2, 
+            "avg": 8
+        }, 
+        "WorkerPool/": {
+            "count": 2, 
+            "avg": 251
+        }, 
+        "dhclient": {
+            "count": 3, 
+            "avg": 6
+        }, 
+        "gvfsd-dnssd": {
+            "count": 1, 
+            "avg": 15
+        }, 
+        "gnome-system-mo": {
+            "count": 518, 
+            "avg": 4
+        }, 
+        "indicator-sound": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "cupsd": {
+            "count": 2687, 
+            "avg": 1
+        }, 
+        "pulseaudio": {
+            "count": 6, 
+            "avg": 3
+        }, 
+        "CompositorTileW": {
+            "count": 1, 
+            "avg": 68
+        }, 
+        "Chrome_IOThread": {
+            "count": 143, 
+            "avg": 218
+        }, 
+        "dnsmasq": {
+            "count": 198, 
+            "avg": 5
+        }, 
+        "alsa-sink-Intel": {
+            "count": 2, 
+            "avg": 3
+        }, 
+        "systemd-timesyn": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "whoopsie": {
+            "count": 6, 
+            "avg": 2
+        }, 
+        "(ostnamed)": {
+            "count": 1, 
+            "avg": 1
+        }, 
+        "prltoolsd": {
+            "count": 3, 
+            "avg": 2
+        }, 
+        "pool": {
+            "count": 29, 
+            "avg": 10
+        }, 
+        "threaded-ml": {
+            "count": 1, 
+            "avg": 186
+        }
+    }
+}

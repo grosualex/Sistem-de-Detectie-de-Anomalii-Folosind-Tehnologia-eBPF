@@ -1,0 +1,413 @@
+[
+    {
+        "re_string": "^sh\\ \\-c\\ LANG\\=C\\ lpstat\\ \\-v\\ \\|\\ sed\\ \\-n\\ \\'s\\/device\\ for\\ \\\\\\(\\.\\*\\\\\\)\\:\\ usb\\:\\.\\*\\=\\\\\\(TAG\\.\\*\\\\\\)\\$\\/\\\\1\\ \\\\2\\/p\\'\\ $"
+    }, 
+    {
+        "re_string": "^python\\ tracer\\.py\\ configs\\/default\\_config\\.json"
+    }, 
+    {
+        "re_string": "gnome-terminal-server"
+    }, 
+    {
+        "re_string": "^python\\ start\\_servers\\.py"
+    }, 
+    {
+        "re_string": "^compiz\\ $"
+    }, 
+    {
+        "re_string": "^zeitgeist\\-datahub\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/zeitgeist\\-fts\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/thermald\\ \\-\\-no\\-daemon\\ \\-\\-dbus\\-enable\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/bamf\\/bamfdaemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/xorg\\/Xorg\\ \\-core\\ \\:0\\ \\-seat\\ seat0\\ \\-auth\\ \\/var\\/run\\/lightdm\\/root\\/\\:0\\ \\-nolisten\\ tcp\\ vt7\\ \\-novtswitch\\ $"
+    }, 
+    {
+        "re_string": "^dbus\\-daemon\\ \\-\\-fork\\ \\-\\-session\\ \\-\\-address\\=unix\\:abstract\\=\\/tmp\\/dbus\\-pqjkTva5nE\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/python3\\ \\-Es\\ \\/usr\\/bin\\/lsb\\_release\\ \\-idrc\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ $"
+    }, 
+    {
+        "re_string": "^dirname\\ \\/usr\\/bin\\/libreoffice\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 178555\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 27763\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/libreoffice\\/program\\/oosplash\\ \\-\\-calc\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/libreoffice\\/program\\/javaldx\\ \\-env\\:INIFILENAME\\=vnd\\.sun\\.star\\.pathname\\:\\/usr\\/lib\\/libreoffice\\/program\\/redirectrc\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/libreoffice\\/program\\/soffice\\.bin\\ \\-\\-calc\\ \\-\\-splash\\-pipe\\=5\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/prlsga\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/cupsd\\ \\-l\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 4\\ \\-isForBrowser\\ \\-prefsLen\\ 6637\\ \\-prefMapSize\\ 178555\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 27763\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/irqbalance\\ \\-\\-pid\\=\\/var\\/run\\/irqbalance\\.pid\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/unity\\/unity\\-panel\\-service\\ $"
+    }, 
+    {
+        "re_string": "^\\/lib\\/systemd\\/systemd\\-journald\\ $"
+    }, 
+    {
+        "re_string": "^\\/lib\\/systemd\\/systemd\\ \\-\\-system\\ \\-\\-deserialize\\ 22\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/ubuntu\\-geoip\\-provider\\ $"
+    }, 
+    {
+        "re_string": "^unity\\-webapps\\-runner\\ \\-\\-amazon\\ \\-\\-app\\-id\\=ubuntu\\-amazon\\-default\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/NetworkManager\\ \\-\\-no\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/policykit\\-1\\/polkitd\\ \\-\\-no\\-debug\\ $"
+    }, 
+    {
+        "re_string": "^webapp\\-container\\ \\-\\-app\\-id\\=ubuntu\\-amazon\\-default\\ \\-\\-webapp\\ \\-\\-enable\\-back\\-forward\\ http\\:\\/\\/www\\.amazon\\.com\\/\\?tag\\=u1webapp\\-20\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/accountsservice\\/accounts\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/oxide\\-qt\\/oxide\\-renderer\\ \\-\\-type\\=zygote\\ \\-\\-shared\\-memory\\-override\\-path\\=\\/dev\\/shm\\/ubuntu\\-amazon\\-default\\.oxide\\ \\-\\-disable\\-gpu\\-compositing\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/oxide\\-qt\\/chrome\\-sandbox\\ \\-\\-adjust\\-oom\\-score\\ 28418\\ 300\\ $"
+    }, 
+    {
+        "re_string": "^unity\\-control\\-center\\ \\-\\-overview\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/pulseaudio\\ \\-\\-start\\ \\-\\-log\\-target\\=syslog\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/gnome\\-software\\ \\-\\-gapplication\\-service\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/unity\\-settings\\-daemon\\/unity\\-settings\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^prltimesync\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/gnome\\-terminal\\.real\\ $"
+    }, 
+    {
+        "re_string": "^bash\\ $"
+    }, 
+    {
+        "re_string": "^stat\\ get\\-pip\\.py\\ $"
+    }, 
+    {
+        "re_string": "^python\\ get\\-pip\\.py\\ $"
+    }, 
+    {
+        "re_string": "^clear\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/rsyslogd\\ \\-n\\ $"
+    }, 
+    {
+        "re_string": "^\\/lib\\/systemd\\/systemd\\-logind\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-trash\\ \\-\\-spawner\\ \\:1\\.5\\ \\/org\\/gtk\\/gvfs\\/exec\\_spaw\\/0\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gnome\\-session\\/gnome\\-session\\-binary\\ \\-\\-session\\=ubuntu\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-metadata\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/upower\\/upowerd\\ $"
+    }, 
+    {
+        "re_string": "^cat\\ get\\-pip\\.py\\ $"
+    }, 
+    {
+        "re_string": "^\\/lib\\/systemd\\/systemd\\-udevd\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/libunity\\-webapps\\/unity\\-webapps\\-service\\ $"
+    }, 
+    {
+        "re_string": "^apt\\-cache\\ dumpavail\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/dpkg\\ \\-\\-print\\-foreign\\-architectures\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/snapd\\/snapd\\ $"
+    }, 
+    {
+        "re_string": "^mount\\ \\-t\\ squashfs\\ \\/tmp\\/sanity\\-squashfs\\-233394703\\ \\/tmp\\/sanity\\-mountpoint\\-324091426\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/udisks2\\/udisksd\\ \\-\\-no\\-debug\\ $"
+    }, 
+    {
+        "re_string": "^umount\\ \\/tmp\\/sanity\\-mountpoint\\-324091426\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/hud\\/hud\\-service\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/gnome\\-keyring\\-daemon\\ \\-\\-daemonize\\ \\-\\-login\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/zeitgeist\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/unity\\-settings\\-daemon\\/unity\\-fallback\\-mount\\-helper\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-http\\ \\-\\-spawner\\ \\:1\\.5\\ \\/org\\/gtk\\/gvfs\\/exec\\_spaw\\/2\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-dnssd\\ \\-\\-spawner\\ \\:1\\.5\\ \\/org\\/gtk\\/gvfs\\/exec\\_spaw\\/7\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-network\\ \\-\\-spawner\\ \\:1\\.5\\ \\/org\\/gtk\\/gvfs\\/exec\\_spaw\\/3\\ $"
+    }, 
+    {
+        "re_string": "^file\\-roller\\ \\-\\-notify\\ \\-\\-default\\-dir\\=file\\:\\/\\/\\/home\\/a\\/payloads\\ \\-\\-add\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/143372\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/160229\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/287206\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/360768\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/530845\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/661985\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/727266\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/765839\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/984019\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1007196\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1074656\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1261898\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1317147\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1377349\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1462978\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1513278\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/1960943\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2096276\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2153809\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2407942\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2487275\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2840044\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/2993043\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3004397\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3357182\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3365122\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3377239\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3531063\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3542606\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3567949\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3784510\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/3811403\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/4236599\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/4568516\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/4575405\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/4732670\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5027027\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5118364\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5166801\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5195947\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5299002\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5381717\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/5591208\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6074704\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6175484\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6494051\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6552341\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6567344\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6735093\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/6983085\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7082503\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7325336\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7335615\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7404939\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7449823\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7470177\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7630223\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7680469\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7791200\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7927364\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/7990659\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/8441051\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/8503512\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/8898135\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/9054349\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/9347262\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/9702372\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/9886318\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/9960002\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10028057\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10029042\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10121023\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10244633\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10400555\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10618456\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/10991136\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/11216391\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/11236797\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/11588860\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/11821245\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/11968541\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12116734\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12206341\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12256652\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12288587\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12442250\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12482349\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12558968\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12598272\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12773611\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12846393\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/12957498\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13018308\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13104334\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13489475\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13503497\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13604234\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13634402\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13663709\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13689884\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13755177\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13799306\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13894345\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/13942856\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14094656\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14254219\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14658381\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14754441\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14774157\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/14913013\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/15065686\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/15398823\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16052744\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16253654\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16300573\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16506338\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16574079\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16592634\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16595029\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/16860395\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/17128076\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/17380520\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/17656288\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/17673897\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/17700089\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/18355059\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/18379956\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/18637849\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/18916379\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19065065\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19269318\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19569565\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19724363\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19739986\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19740164\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19742954\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/19887262\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20076369\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20113794\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20151635\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20392315\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20608625\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20639593\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20653393\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20749318\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20755264\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20896996\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/20912657\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21027616\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21179250\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21398622\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21422024\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21620873\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21707220\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/21972148\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/22192654\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/22484518\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/22849880\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/22929963\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/22936141\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/23418016\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/23452338\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/23456677\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/23688112\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/23737674\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24199126\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24376540\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24647184\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24660272\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24676237\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24807771\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/24889573\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/25176725\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/25251430\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/25661552\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/25814933\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/25892263\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26252376\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26265833\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26300866\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26319974\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26360780\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26362994\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26418779\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26599754\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/26875666\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/27007128\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/27288822\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/27676570\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/27919517\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28191640\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28311814\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28514348\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28544956\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28619681\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28643544\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28742183\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/28918528\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/29031996\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/29910000\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30043572\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30071004\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30091612\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30393467\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30398748\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30520440\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30713986\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/30986944\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31162994\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31278726\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31351129\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31512324\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31618734\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31804588\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31840986\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31857333\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/31939617\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/32360925\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/32414819\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/32441666\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33049543\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33441986\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33550722\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33745668\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33816974\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/33920502\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34039751\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34137601\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34164587\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34509443\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34716693\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34750705\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34904213\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34937364\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/34960489\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35015419\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35031092\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35294725\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35363279\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35525758\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35767333\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35833135\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35877442\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35897669\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/35938602\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/36165383\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/36261258\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/36453790\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/36571944\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/36770513\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37142620\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37392376\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37496130\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37811629\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37830548\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/37984200\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38108127\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38115479\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38313998\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38644554\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38731645\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/38941428\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39257348\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39370828\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39394950\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39613652\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39739967\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39850559\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/39882266\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40110109\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40208198\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40235634\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40354375\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40647833\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40716618\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40752822\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40886010\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/40959848\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41053081\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41152566\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41535122\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41591002\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41660326\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41757566\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41769068\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41842947\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/41986419\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/42127558\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/42633484\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/42971345\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/43106474\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/43209809\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/43531564\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/43549709\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/44699189\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/44744979\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/44813970\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45013509\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45338135\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45576295\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45624433\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45784566\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/45930628\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46072501\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46132061\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46394340\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46478145\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46840064\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46852782\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46896666\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/46903504\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/47176030\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/47176089\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/47273752\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/47827990\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48016355\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48076541\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48242076\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48246385\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48302863\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48558666\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48626330\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48746880\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/48764949\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/49000300\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/49208230\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/49478279\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/49740781\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/49964753\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50030057\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50158436\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50226977\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50397470\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50474945\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50496454\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/50894962\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51047409\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51628027\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51805969\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51851151\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51924954\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51925567\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/51990707\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/52231263\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/52491098\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/52743124\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/52866107\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53124732\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53125499\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53473931\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53497793\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53552880\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53682935\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53861744\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53892309\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/53920033\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54003989\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54027053\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54072489\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54345262\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54591839\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54741546\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54758616\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/54863791\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55136580\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55172546\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55198234\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55571682\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55639143\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/55751609\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56202883\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56222203\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56311592\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56445536\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56637432\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56713858\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56734170\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56991605\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/56996506\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57321591\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57443184\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57512775\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57810722\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57945757\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/57969040\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58204541\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58359249\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58473033\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58532710\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58954818\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/58979266\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/59422251\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/59699034\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/59819701\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/59952474\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/59966131\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60104652\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60118263\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60122992\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60337703\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60349768\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60598795\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60670780\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/60731897\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/61241017\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/61274062\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/61628403\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/61679621\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/62102072\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/62261347\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/62592857\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/62692639\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/62856995\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/64213202\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/64227854\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/64659010\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/64891193\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65035525\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65060307\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65242669\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65272812\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65303488\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65382383\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/65405389\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/66023529\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/66085801\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/66750114\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67054421\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67147114\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67161866\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67225160\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67566342\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67569980\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67723512\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/67880976\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68011916\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68068381\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68108873\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68414008\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68547653\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/68874025\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69088558\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69158846\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69284242\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69672766\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69726138\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/69993858\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70194358\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70244989\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70285270\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70300927\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70332700\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70336994\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70743009\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/70823944\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71291579\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71355632\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71392065\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71495963\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71569580\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/71810358\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72067893\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72090490\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72102035\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72310077\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72427634\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72458370\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72484442\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72490690\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/72934930\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/73677370\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74088444\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74108491\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74153304\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74297989\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74431362\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74521843\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74526607\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74585535\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74707555\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/74872570\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75159423\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75169888\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75201511\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75402343\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75495531\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/75728477\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/76348889\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/76673330\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/76673961\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/76952313\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/77545107\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/77599817\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/77676461\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/77781282\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/77890446\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78303204\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78305311\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78369141\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78433779\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78690721\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78697114\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78776015\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78821479\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78876052\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/78882168\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79052048\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79296629\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79396728\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79410119\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79513182\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/79732084\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/80019299\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/80713096\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/80852120\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81081202\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81442115\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81572085\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81578027\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81702408\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/81813092\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/82097779\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/82220497\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/82298862\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/82888086\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/82973522\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83103421\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83123949\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83203402\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83321560\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83415716\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83578836\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83772201\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83795385\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/83960635\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84100410\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84130309\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84147438\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84226821\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84310421\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84538147\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84962878\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/84967702\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/85214573\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/85505560\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/85647666\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/85799990\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86108095\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86113211\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86355503\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86421196\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86868972\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/86891259\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87014618\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87095242\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87224218\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87482646\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87540693\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/87903091\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/88022306\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/88131101\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/88249555\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/88436724\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/88646854\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89014994\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89464721\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89541486\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89567406\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89678832\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89831606\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/89980286\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/90138104\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/90324431\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/90396502\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/90480178\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/90648517\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91087361\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91104060\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91120962\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91242643\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91535780\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91566270\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/91919184\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92159284\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92288151\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92398517\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92518751\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92946231\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/92959395\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93086983\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93216358\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93279029\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93709436\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93804412\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93879031\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/93993790\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94061239\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94140317\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94162529\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94230580\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94557286\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94888502\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94897340\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94910446\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94944897\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94959295\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/94959750\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/95236820\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/95335974\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/96021012\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/96044080\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/96323842\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/96428210\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/96581818\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/97351252\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/97462629\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/97503931\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/97649255\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/97926198\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/98000378\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/98001657\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/98107030\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/99053109\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/99255009\\_mirai\\ file\\:\\/\\/\\/home\\/a\\/payloads\\/99534563\\_mirai\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/notify\\-osd\\ $"
+    }, 
+    {
+        "re_string": "^python\\ decision\\_server\\.py\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/evolution\\/evolution\\-addressbook\\-factory\\-subprocess\\ \\-\\-factory\\ local\\ \\-\\-bus\\-name\\ org\\.gnome\\.evolution\\.dataserver\\.Subprocess\\.Backend\\.AddressBookx2500x2\\ \\-\\-own\\-path\\ \\/org\\/gnome\\/evolution\\/dataserver\\/Subprocess\\/Backend\\/AddressBook\\/2500\\/2\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/evolution\\/evolution\\-calendar\\-factory\\-subprocess\\ \\-\\-factory\\ contacts\\ \\-\\-bus\\-name\\ org\\.gnome\\.evolution\\.dataserver\\.Subprocess\\.Backend\\.Calendarx2261x2\\ \\-\\-own\\-path\\ \\/org\\/gnome\\/evolution\\/dataserver\\/Subprocess\\/Backend\\/Calendar\\/2261\\/2\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/whoopsie\\ \\-f\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/ibus\\-daemon\\ \\-\\-daemonize\\ \\-\\-xim\\ \\-\\-address\\ unix\\:tmpdir\\=\\/tmp\\/ibus\\ $"
+    }, 
+    {
+        "re_string": "^upstart\\-dbus\\-bridge\\ \\-\\-daemon\\ \\-\\-session\\ \\-\\-user\\ \\-\\-bus\\-name\\ session\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/hud\\/window\\-stack\\-bridge\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/prlshprof\\ $"
+    }, 
+    {
+        "re_string": "^avahi\\-daemon\\:\\ running\\ \\[a\\-Parallels\\-Virtual\\-Platform\\.local\\]$"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/rtkit\\/rtkit\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/indicator\\-application\\/indicator\\-application\\-service\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 31970\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 2\\ \\-isForBrowser\\ \\-prefsLen\\ 5850\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 31970\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/ibus\\/ibus\\-ui\\-gtk3\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 3\\ \\-isForBrowser\\ \\-prefsLen\\ 6636\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 31970\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^gpg\\-agent\\ \\-\\-homedir\\ \\/home\\/a\\/\\.gnupg\\ \\-\\-use\\-standard\\-socket\\ \\-\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 32617\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/unity\\-scope\\-loader\\ applications\\/applications\\.scope\\ applications\\/scopes\\.scope\\ commands\\.scope\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/at\\-spi2\\-core\\/at\\-spi2\\-registryd\\ \\-\\-use\\-gnome\\-session\\ $"
+    }, 
+    {
+        "re_string": "^nm\\-applet\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/policykit\\-1\\-gnome\\/polkit\\-gnome\\-authentication\\-agent\\-1\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/indicator\\-printers\\/indicator\\-printers\\-service\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/ibus\\/ibus\\-engine\\-simple\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/sbin\\/cups\\-browsed\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/oxide\\-qt\\/oxide\\-renderer\\ \\-\\-type\\=renderer\\ \\-\\-disable\\-accelerated\\-video\\-decode\\ \\-\\-enable\\-smooth\\-scrolling\\ \\-\\-enable\\-use\\-zoom\\-for\\-dsf\\=false\\ \\-\\-profiler\\-timing\\=0\\ \\-\\-use\\-gl\\=desktop\\ \\-\\-primordial\\-pipe\\-token\\=392A58B6876AF4709D6E2B12CE328E28\\ \\-\\-lang\\=en\\_US\\ \\-\\-shared\\-memory\\-override\\-path\\=\\/dev\\/shm\\/ubuntu\\-amazon\\-default\\.oxide\\ \\-\\-enable\\-pinch\\ \\-\\-num\\-raster\\-threads\\=1\\ \\-\\-content\\-image\\-texture\\-target\\=0\\,0\\,3553\\;0\\,1\\,3553\\;0\\,2\\,3553\\;0\\,3\\,3553\\;0\\,4\\,3553\\;0\\,5\\,3553\\;0\\,6\\,3553\\;0\\,7\\,3553\\;0\\,8\\,3553\\;0\\,9\\,3553\\;0\\,10\\,3553\\;0\\,11\\,3553\\;0\\,12\\,3553\\;0\\,13\\,3553\\;0\\,14\\,3553\\;0\\,15\\,3553\\;1\\,0\\,3553\\;1\\,1\\,3553\\;1\\,2\\,3553\\;1\\,3\\,3553\\;1\\,4\\,3553\\;1\\,5\\,3553\\;1\\,6\\,3553\\;1\\,7\\,3553\\;1\\,8\\,3553\\;1\\,9\\,3553\\;1\\,10\\,3553\\;1\\,11\\,3553\\;1\\,12\\,3553\\;1\\,13\\,3553\\;1\\,14\\,3553\\;1\\,15\\,3553\\;2\\,0\\,3553\\;2\\,1\\,3553\\;2\\,2\\,3553\\;2\\,3\\,3553\\;2\\,4\\,3553\\;2\\,5\\,3553\\;2\\,6\\,3553\\;2\\,7\\,3553\\;2\\,8\\,3553\\;2\\,9\\,3553\\;2\\,10\\,3553\\;2\\,11\\,3553\\;2\\,12\\,3553\\;2\\,13\\,3553\\;2\\,14\\,3553\\;2\\,15\\,3553\\;3\\,0\\,3553\\;3\\,1\\,3553\\;3\\,2\\,3553\\;3\\,3\\,3553\\;3\\,4\\,3553\\;3\\,5\\,3553\\;3\\,6\\,3553\\;3\\,7\\,3553\\;3\\,8\\,3553\\;3\\,9\\,3553\\;3\\,10\\,3553\\;3\\,11\\,3553\\;3\\,12\\,3553\\;3\\,13\\,3553\\;3\\,14\\,3553\\;3\\,15\\,3553\\ \\-\\-service\\-request\\-channel\\-token\\=392A58B6876AF4709D6E2B12CE328E28\\ \\-\\-renderer\\-client\\-id\\=3\\ \\-\\-v8\\-natives\\-passed\\-by\\-fd\\ \\-\\-v8\\-snapshot\\-passed\\-by\\-fd$"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/libreoffice\\/program\\/soffice\\.bin\\ \\-\\-impress\\ \\-\\-splash\\-pipe\\=5\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/unity\\-scope\\-home\\/unity\\-scope\\-home\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/prlcp\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 2\\ \\-isForBrowser\\ \\-prefsLen\\ 5848\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 2578\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/python3\\ \\/usr\\/lib\\/command\\-not\\-found\\ \\-\\-\\ ks\\ $"
+    }, 
+    {
+        "re_string": "^upstart\\-udev\\-bridge\\ \\-\\-daemon\\ \\-\\-user\\ $"
+    }, 
+    {
+        "re_string": "^upstart\\-file\\-bridge\\ \\-\\-daemon\\ \\-\\-user\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/ibus\\/ibus\\-x11\\ \\-\\-kill\\-daemon\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/fwupd\\/fwupd\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/x86\\_64\\-linux\\-gnu\\/oxide\\-qt\\/oxide\\-renderer\\ \\-\\-type\\=renderer\\ \\-\\-disable\\-accelerated\\-video\\-decode\\ \\-\\-enable\\-smooth\\-scrolling\\ \\-\\-enable\\-use\\-zoom\\-for\\-dsf\\=false\\ \\-\\-profiler\\-timing\\=0\\ \\-\\-use\\-gl\\=desktop\\ \\-\\-primordial\\-pipe\\-token\\=4AC3B767B7A6B3F4E72748EAD18CDE08\\ \\-\\-lang\\=en\\_US\\ \\-\\-shared\\-memory\\-override\\-path\\=\\/dev\\/shm\\/ubuntu\\-amazon\\-default\\.oxide\\ \\-\\-enable\\-pinch\\ \\-\\-num\\-raster\\-threads\\=1\\ \\-\\-content\\-image\\-texture\\-target\\=0\\,0\\,3553\\;0\\,1\\,3553\\;0\\,2\\,3553\\;0\\,3\\,3553\\;0\\,4\\,3553\\;0\\,5\\,3553\\;0\\,6\\,3553\\;0\\,7\\,3553\\;0\\,8\\,3553\\;0\\,9\\,3553\\;0\\,10\\,3553\\;0\\,11\\,3553\\;0\\,12\\,3553\\;0\\,13\\,3553\\;0\\,14\\,3553\\;0\\,15\\,3553\\;1\\,0\\,3553\\;1\\,1\\,3553\\;1\\,2\\,3553\\;1\\,3\\,3553\\;1\\,4\\,3553\\;1\\,5\\,3553\\;1\\,6\\,3553\\;1\\,7\\,3553\\;1\\,8\\,3553\\;1\\,9\\,3553\\;1\\,10\\,3553\\;1\\,11\\,3553\\;1\\,12\\,3553\\;1\\,13\\,3553\\;1\\,14\\,3553\\;1\\,15\\,3553\\;2\\,0\\,3553\\;2\\,1\\,3553\\;2\\,2\\,3553\\;2\\,3\\,3553\\;2\\,4\\,3553\\;2\\,5\\,3553\\;2\\,6\\,3553\\;2\\,7\\,3553\\;2\\,8\\,3553\\;2\\,9\\,3553\\;2\\,10\\,3553\\;2\\,11\\,3553\\;2\\,12\\,3553\\;2\\,13\\,3553\\;2\\,14\\,3553\\;2\\,15\\,3553\\;3\\,0\\,3553\\;3\\,1\\,3553\\;3\\,2\\,3553\\;3\\,3\\,3553\\;3\\,4\\,3553\\;3\\,5\\,3553\\;3\\,6\\,3553\\;3\\,7\\,3553\\;3\\,8\\,3553\\;3\\,9\\,3553\\;3\\,10\\,3553\\;3\\,11\\,3553\\;3\\,12\\,3553\\;3\\,13\\,3553\\;3\\,14\\,3553\\;3\\,15\\,3553\\ \\-\\-service\\-request\\-channel\\-token\\=4AC3B767B7A6B3F4E72748EAD18CDE08\\ \\-\\-renderer\\-client\\-id\\=3\\ \\-\\-v8\\-natives\\-passed\\-by\\-fd\\ \\-\\-v8\\-snapshot\\-passed\\-by\\-fd$"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfs\\-afc\\-volume\\-monitor\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 3\\ \\-isForBrowser\\ \\-prefsLen\\ 5905\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 3129\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^nano\\ goto\\_tracer\\.sh\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 3129\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfsd\\-smb\\-browse\\ \\-\\-spawner\\ \\:1\\.4\\ \\/org\\/gtk\\/gvfs\\/exec\\_spaw\\/4\\ $"
+    }, 
+    {
+        "re_string": "^gedit\\ \\/home\\/a\\/goto\\_tracer\\.sh\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/gvfs\\/gvfs\\-goa\\-volume\\-monitor\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 178911\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 9446\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/python3\\ \\/usr\\/bin\\/gnome\\-language\\-selector\\ $"
+    }, 
+    {
+        "re_string": "^wget\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/firefox\\/firefox\\ \\-contentproc\\ \\-childID\\ 1\\ \\-isForBrowser\\ \\-prefsLen\\ 1\\ \\-prefMapSize\\ 179175\\ \\-parentBuildID\\ 20190517141553\\ \\-greomni\\ \\/usr\\/lib\\/firefox\\/omni\\.ja\\ \\-appomni\\ \\/usr\\/lib\\/firefox\\/browser\\/omni\\.ja\\ \\-appdir\\ \\/usr\\/lib\\/firefox\\/browser\\ 6981\\ true\\ tab\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/perl\\ \\-w\\ \\/usr\\/sbin\\/dpkg\\-preconfigure\\ \\-\\-apt\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/var\\/lib\\/dpkg\\/info\\/apt\\.postrm\\ upgrade\\ 1\\.2\\.32\\ $"
+    }, 
+    {
+        "re_string": "^\\/lib\\/systemd\\/system\\-generators\\/systemd\\-insserv\\-generator\\ \\/run\\/systemd\\/generator\\ \\/run\\/systemd\\/generator\\.early\\ \\/run\\/systemd\\/generator\\.late\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/mandb\\ \\-pq\\ $"
+    }, 
+    {
+        "re_string": "^perl\\ \\/usr\\/bin\\/deb\\-systemd\\-helper\\ unmask\\ apt\\-daily\\-upgrade\\.timer\\ $"
+    }, 
+    {
+        "re_string": "^perl\\ \\/usr\\/bin\\/deb\\-systemd\\-invoke\\ start\\ apt\\-daily\\-upgrade\\.timer\\ apt\\-daily\\.timer\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/var\\/lib\\/dpkg\\/info\\/apparmor\\.postrm\\ upgrade\\ 2\\.10\\.95\\-0ubuntu2\\.11\\ $"
+    }, 
+    {
+        "re_string": "^systemctl\\ daemon\\-reload\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/perl\\ \\/usr\\/sbin\\/update\\-mime\\ \\-\\-triggered\\ $"
+    }, 
+    {
+        "re_string": "^gtk\\-update\\-icon\\-cache\\-3\\.0\\ \\-\\-force\\ \\-\\-quiet\\ \\/usr\\/share\\/icons\\/hicolor\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/var\\/lib\\/dpkg\\/info\\/hicolor\\-icon\\-theme\\.postinst\\ triggered\\ \\/usr\\/share\\/icons\\/hicolor\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/bin\\/perl\\ \\/usr\\/sbin\\/update\\-rc\\.d\\ apparmor\\ start\\ 37\\ S\\ \\.\\ $"
+    }, 
+    {
+        "re_string": "^\\/usr\\/lib\\/insserv\\/insserv\\ apparmor\\ $"
+    }, 
+    {
+        "re_string": "^depmod\\ \\-a\\ \\-F\\ \\/boot\\/System\\.map\\-4\\.15\\.0\\-51\\-generic\\ 4\\.15\\.0\\-51\\-generic\\ $"
+    }, 
+    {
+        "re_string": "^depmod\\ 4\\.15\\.0\\-51\\-generic\\ $"
+    }, 
+    {
+        "re_string": "^run\\-parts\\ \\-\\-report\\ \\-\\-exit\\-on\\-error\\ \\-\\-arg\\=4\\.15\\.0\\-51\\-generic\\ \\/etc\\/kernel\\/header\\_postinst\\.d\\ $"
+    }, 
+    {
+        "re_string": "^sleep\\ 3\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/usr\\/sbin\\/mkinitramfs\\ \\-o\\ \\/boot\\/initrd\\.img\\-4\\.15\\.0\\-51\\-generic\\.new\\ 4\\.15\\.0\\-51\\-generic\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/etc\\/grub\\.d\\/10\\_linux\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/etc\\/grub\\.d\\/20\\_memtest86\\+\\ $"
+    }, 
+    {
+        "re_string": "^tr\\ \\ \\ \\^\\ $"
+    }, 
+    {
+        "re_string": "^\\/bin\\/sh\\ \\/usr\\/lib\\/os\\-probes\\/init\\/10filesystems\\ $"
+    }, 
+    {
+        "re_string": "^paste\\ \\-s\\ \\-d\\ \\ \\ $"
+    }, 
+    {
+        "re_string": "^gnome\\-system\\-monitor\\ $"
+    }
+]
